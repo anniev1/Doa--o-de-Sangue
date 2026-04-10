@@ -1,0 +1,59 @@
+/* Reset básico */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(161, 216, 238);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar */
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(241, 241, 241);
+    color: rgb(0, 0, 0);
+    height: 80px;
+}
+
+#icon {
+    width: 65px;
+    height: 65px;
+}
+
+#links {
+    padding-right: 10px;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+/* Container centralizado */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(50vh - 50px);
+
+    margin-bottom: 50px; /* 👈 sobe a caixa */
+}
+
+/* Caixa do formulário */
+#sangueDoa {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    width: 300px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Inputs */
+#sangueDoa input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
