@@ -1,8 +1,15 @@
 document.getElementById("sangueDoa").addEventListener("submit", function (e) {
     e.preventDefault();
 
-    let nome = document.getElementById("nome").value.trim();
-    let sobrenome = document.getElementById("nome").value.trim();
+
+
+ //pega o nome 
+    let nome = document.getElementById("nome").value;
+//divide o nome 
+    let nomeDividido = nome.split ("")
+//guarda o sobrenome
+    let sobrnome = nomeDividido [1];
+
     let email = document.getElementById("email").value.trim();
     let idade = document.getElementById("idade").value;
     let peso = document.getElementById("peso").value;
