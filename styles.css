@@ -33,9 +33,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(50vh - 50px);
+    height: calc(90vh - 90px);
 
-    margin-bottom: 50px; /* 👈 sobe a caixa */
+    
 }
 
 /* Caixa do formulário */
