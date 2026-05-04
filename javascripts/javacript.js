@@ -25,4 +25,9 @@ document.getElementById("sangueDoa").addEventListener("submit", function (e) {
 
     let resultado = document.getElementById("resultado");
 
-    if 
+    
+
+///como faz pra verificar - Pergunta pro Professor 
+
+
+ if 
